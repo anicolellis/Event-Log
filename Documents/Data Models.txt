@@ -1,0 +1,33 @@
+Books:
+
+Required:
+Title
+Author
+Date Finished
+Date Released
+
+Optional:
+Date Started
+Category
+Rating
+
+Extra:
+Review
+Author Demographics
+
+Single Player Games:
+
+Required:
+Name
+Hours Played
+Date Finished
+Date Released
+
+Optional:
+Date Started
+Category
+Rating
+Studio
+
+Extra: 
+Review

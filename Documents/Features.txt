@@ -1,0 +1,5 @@
+- Timeline
+- Group by Category, Rating, Year
+- Count by Author, Year, Rating, Category
+
+- More advanced data visualization concepts
