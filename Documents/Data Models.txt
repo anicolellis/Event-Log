@@ -8,10 +8,10 @@ Date Released
 
 Optional:
 Date Started
-Category
-Rating
 
 Extra:
+Category
+Rating
 Review
 Author Demographics
 
