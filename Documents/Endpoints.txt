@@ -1,0 +1,16 @@
+Common endpoints:
+
+Create
+Modify
+Delete
+Get
+Get all
+
+Intermediate:
+
+Get by year
+Get by Category
+Get by Rating
+Count by author, year, rating, category 
+
+Get all in chronological order
