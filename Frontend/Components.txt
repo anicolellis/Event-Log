@@ -1,0 +1,9 @@
+Book List Entry (book info, edit button, individual page)
+The container for the book entries
+Single book zoom-in page containing review/notes
+
+Form for creating new book Entry
+Form for editing books - can be combined with zoom in page
+
+Once games have been added:
+switching between book and video game page
