@@ -5,7 +5,7 @@ export function BookListPage() {
     const [books, setBooks] = useState([]);
     // Get book list when loading the page
     useEffect(() => {
-        axios.get()
+        axios.get('http://localhost:8000/book')
             .then((response) => {
                 setBooks(response.data);
             });

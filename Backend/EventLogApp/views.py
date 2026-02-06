@@ -16,9 +16,9 @@ def book_list(request):
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
     
-def book_single(request, title):
+def book_single(request, id):
     try:
-        book = Book.objects.get(title=title)
+        book = Book.objects.get(id=id)
     except:
         return HttpResponse(status=404)
     
