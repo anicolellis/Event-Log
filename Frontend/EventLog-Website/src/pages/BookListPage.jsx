@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from "react";
+import BookForm from '../components/BookForm';
 
 export function BookListPage() {
     const [books, setBooks] = useState([]);
@@ -13,6 +14,7 @@ export function BookListPage() {
 
     return (
         <>
+            <BookForm />
             <title>Alex's Book Log</title>
             <div>
                 {books.map((book) => {
