@@ -6,6 +6,8 @@ from rest_framework.parsers import JSONParser
 def book_list(request):
     if request.method == "GET":
         books = Book.objects.all()
+        if len(books) == 0:
+            return JsonResponse({})
         serializer = BookSerializer(books, many=True)
         return JsonResponse(serializer.data)
     elif request.method == "POST":

@@ -8,7 +8,9 @@ export function BookListPage() {
     useEffect(() => {
         axios.get('http://localhost:8000/book')
             .then((response) => {
-                setBooks(response.data);
+                const data = response.data;
+                console.log(data);
+                setBooks(data);
             });
     }, []);
 
